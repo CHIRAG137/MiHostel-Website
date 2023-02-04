@@ -1,0 +1,48 @@
+.auth {
+  max-width: 400px;
+  border: 1px solid #dcdcdc;
+  padding: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.auth input {
+  border-radius: 5px;
+  border: 2px solid white;
+  border-bottom-color: #0879FD;
+}
+
+.auth button {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #062EBB;
+  color: white;
+  font-weight: 500;
+}
+
+.auth form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 auto 10px auto;
+}
+
+.auth__success {
+  padding: 10px 0;
+  background-color: hsl(147, 79%, 87%);
+  margin-bottom: 20px;
+}
+
+.auth__error {
+  padding: 10px 0;
+  background-color: hsl(0, 79%, 87%);
+  margin-bottom: 20px;
+}
+
+.auth form>input,
+button {
+  height: 40px;
+  font-size: 16px;
+  padding: 0 10px;
+}
