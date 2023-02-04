@@ -81,6 +81,7 @@ function Register() {
           <Link to='/login'>login</Link>
         </span>
       </div>
+      <button className='but1'>Download the MiHostel Mobile App</button>
     </div>
   )
 }

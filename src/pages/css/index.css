@@ -16,9 +16,20 @@ span {
 }
 
 .center img {
-  height: 40%;
-  padding-top: 20px;
+  height: 35%;
+  padding-top: 10px;
   padding-left: 22%;
+}
+
+.but1{
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #062EBB;
+  color: white;
+  font-weight: 500;
+  margin-left: 65px;
+  margin-top: 20px;
 }
 
 body {
